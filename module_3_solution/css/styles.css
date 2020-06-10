@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    background-color: wheat;
+}
+
+#header-nav {
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand h1 { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+#nav-list a {
+    background-color: black;
+    color: gold;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#nav-list a:hover {
+    background-color: brown;
+}
+
+button.navbar-toggle, .icon-bar {
+    border: 1px solid gold;
+}
+
+.navbar-default .navbar-toggle {
+    border: 3px solid maroon;
+}
+
+h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 50px;
+        color: black;
+}
+
+.col-md-4 .col-sm-6, .col-xs-12 {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px;
+    color: wheat;
+}
+
+#chocolate-tile, #vanilla-tile, #butterscotch-tile {
+    background-color: maroon;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#item1, #item2, #item3 {
+    color: gold;
+    font-weight: bold;
+}
+
+.row a {
+    text-align: center;
+    font-size: 1.2em;
+    color: green;
+    text-transform: uppercase;
+}
+
+.row a:hover {
+    color: gold;
+}
+
+.tile-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    opacity: .8;
+}
+
+.tile-footer:hover {
+    background-color: grey;
+}
